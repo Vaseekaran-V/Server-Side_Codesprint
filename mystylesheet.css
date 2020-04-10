@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 body{
-    background-image: url("marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+    background-image: url("clear-wine-glass-on-table-67468.jpg");
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
     /* Background image doesn't tile */
@@ -26,7 +26,7 @@ body{
 }
 #header{
     background: #F8F8F8;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 #header h1{
     margin: 0;

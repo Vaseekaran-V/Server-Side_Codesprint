@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 10, 2020 at 06:02 AM
+
 -- Server version: 5.7.24
 -- PHP Version: 7.3.1
 
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `food` (
   `foodDescriptionLong` varchar(1000) NOT NULL,
   PRIMARY KEY (`foodId`),
   UNIQUE KEY `foodName` (`foodName`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 
 -- --------------------------------------------------------
 
