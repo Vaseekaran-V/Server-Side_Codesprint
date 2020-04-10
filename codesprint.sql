@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 10, 2020 at 06:33 AM
+
 -- Server version: 5.7.24
 -- PHP Version: 7.3.1
 
@@ -39,15 +39,7 @@ CREATE TABLE IF NOT EXISTS `food` (
   `foodDescriptionLong` varchar(1000) NOT NULL,
   PRIMARY KEY (`foodId`),
   UNIQUE KEY `foodName` (`foodName`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `food`
---
-
-INSERT INTO `food` (`foodId`, `foodName`, `foodPrice`, `foodPicLarge`, `foodPicSmall`, `foodDescriptionShort`, `foodDescriptionLong`) VALUES
-(1, 'Chocolate Milkshake', 250, 'chocolatemilkshakelarge.jpg', 'chocolatemilkshakesmall.jpg', 'Delicious Yummy Choc Shake', 'Chocolate Milkshake, made from the finest Cocoa beans and made with extra love. Will make your mouth water.'),
-(2, 'Pizza', 500, 'pizzalarge.jpg', 'pizzasmall.jpg', 'Delicious Thin Crust Pizza', 'Delicious Chicken Pizza to feed all of your cravings. Order this and have your tummy stocked for the quarantine.');
 
 -- --------------------------------------------------------
 
